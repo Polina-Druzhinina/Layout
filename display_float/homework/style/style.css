@@ -1,0 +1,39 @@
+body{
+    background-color: azure;
+    font-size: 18pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+header, footer{
+    background-color: #fff176;
+}
+
+h1{
+    margin: 0;
+    padding: 8px;
+}
+
+.characters{
+    float: left;
+    background-color: #80deea;
+    width: 300px;
+    padding: 10px;
+}
+
+.describe{
+    background-color: #ffe0b2;
+    overflow: hidden;
+    padding: 10px;
+}
+
+img{
+    float: left;
+    width: 400px;
+    margin: 0 15px 15px 0;
+}
+
+.clearfix{
+    clear: both;
+}
+
