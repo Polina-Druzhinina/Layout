@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Верстка таблиц</title>
+    <link rel="stylesheet" href="./style/style.css" type="text/css"> 
+</head>
+<body>
+    <table>
+        <caption>Успеваемость</caption> <!-- заголовок таблицы-->
+
+        <tr>
+            <th rowspan="2" class="object">ФИО</th> <!--по вертикали вниз-->
+            <th colspan="2" class="main">Предметы</th> <!-- по горизонтале вправо-->
+        </tr>
+
+        <tr>
+             <!-- th Заголовки(всегда выравниваются по центру)-->
+            <th class="object">ЯРСК</th>
+            <th class="object">Программирование</th>
+        </tr>
+
+        <tr class="tiny"> <!-- строки-->
+            <td>Петров</td>  <!--текст по столбцам (сколько столбцов (th) столько и строк)-->
+            <td class="aling">3</td>
+            <td class="aling">3</td>
+        </tr>
+
+        <tr class="tiny_2">
+            <td>Васильева</td>
+            <td class="aling">5</td>
+            <td class="aling">4</td>
+        </tr>
+
+        <tr class="tiny">
+            <td>Свиридов</td>
+            <td class="aling">4</td>
+            <td class="aling">4</td>
+        </tr>
+    </table>
+</body>
+</html>

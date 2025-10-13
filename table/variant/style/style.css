@@ -1,0 +1,68 @@
+body{
+    background-color: #f0f4f8;
+    font-size: 18pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 33%;
+}
+
+
+th{
+    background-color: #0088CC;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    border: 2px solid transparent;    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+td{
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid rgb(170, 170, 170);    
+}
+
+.centre{
+    text-align: center;
+    font-size: 15pt;
+}
+
+.subtitle{
+    color: rgb(141, 141, 141);
+    font-size: 14pt;
+}
+
+.number{
+    text-align: center;
+    color: rgb(141, 141, 141);
+    font-size: 14pt;
+}
+
+.score{
+    text-align: right;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 15pt;
+}
+
+.score:hover{
+    color: #0088CC;
+}
+
+.person .country{
+    display: none;
+
+}
+
+.person:hover .country{
+    display: inline;
+    color: rgb(141, 141, 141);
+    font-size: 12pt;
+}
+
+

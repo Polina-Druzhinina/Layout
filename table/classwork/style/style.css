@@ -1,0 +1,41 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    color: #0C292B; 
+}
+
+table{
+    border: 3px solid #1B4965;
+    border-collapse: collapse; /*талько для table*/
+    margin: 0 auto;
+    width: 70%;
+}
+
+td, th{
+    border: 1px solid #1B4965;
+    padding: 15px;
+    width: 33%;
+
+}
+
+.aling{
+    text-align: center;
+}
+
+.tiny{
+    background-color: #CD5C5C;   
+}
+
+.tiny_2{
+    background-color: #F08080;
+}
+
+.object{
+    background-color: #B22222;
+}
+
+.main{
+    background-color: #F0F8FF;
+}
+
