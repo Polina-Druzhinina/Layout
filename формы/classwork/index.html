@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+    <link rel="stylesheet" href="./style/style.css" type="text/css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Форма опроса</h1>
+        <form action="#" method="get" oninput="forrange.value=range.value">
+
+            
+            <div>
+                <label for="">ФИО</label>
+                <input type="text" required>                
+            </div>
+
+            <div>
+                <div>
+                    <label for="">Укажите возраст</label>
+                    
+                </div>
+
+                <div>
+                    <input type="radio" name="Age" id="age18">                
+                    <label for="age18">от 18 до 30</label>
+                    
+                </div>
+
+                <div>
+                    <input type="radio" name="Age" id="age31">
+                    <label for="age31">от 31 до 45</label>
+                    
+                </div>
+                
+                <div>
+                    <input type="radio" name="Age" id="age45">
+                    <label for="age45">от 46 до 65</label>    
+
+                </div>
+
+                <div>
+                    <input type="radio" name="Age" id="age66">
+                    <label for="age66">от 66 до 80</label>
+                </div>
+            </div>
+
+            <label class="sphere">Укажите род деятельности</label>
+            <select name="" id="">
+                <option value="">IT</option>
+                <option value="">Медицина</option>
+                <option value="">Педагогика</option>
+                <option value="">Машиностроение</option>
+                <option value="">Сельское хозяйство</option>
+                <option value="">Другой</option>
+            </select>
+
+            <input type="checkbox">
+            <label for="">Хочу получать новости</label>
+
+            <div>
+                <label>Напишите отзыв</label>
+                <textarea rows="10" cols="40"></textarea>                
+            </div>
+             
+            <div>
+                <label for="">10</label> 
+               <input type="range" min="10" max="100" id="range">
+               <label for="">100</label>
+               <output name="forrange">10</output>
+            </div>
+            
+            <input type="submit">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

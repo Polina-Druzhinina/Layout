@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Опрос</title>
+    <link rel="stylesheet" href="./style/style.css" type="text/css">
+</head>
+<body>
+
+    <div class="title">
+        <h1>Обучение в ИГУ ФБКИ</h1>
+        <p>Что вы думаете об обучении в университете?</p>        
+    </div>
+
+    <form action="#" method="get" oninput="forrange.value=range.value">
+        <fieldset>
+            <div>
+                <label for="">1. Укажите ваше ФИО</label>
+            </div>
+
+            <div>
+                <input type="text" placeholder="ФИО" required>
+            </div>                
+        </fieldset>
+
+        
+        <fieldset>
+            <div>
+                <label for="">2. Укажите вашу группу:</label>
+            </div>
+
+            <div>
+                <select name="" id="" required>
+                    <option value="" disabled selected>--Группа--</option>
+                    <option value="">14121-ДБ (ПИ)</option>
+                    <option value="">14122-ДБ (ПИ)</option>
+                    <option value="">14123-ДБ (ПИ)</option>
+                    <option value="">14124-ДБ (ПИ)</option>
+                    <option value="">14131-ДБ (СЕР)</option>
+                    <option value="">14151-ДБ (РЕК)</option>
+                    <option value="">14152-ДБ (РЕК)</option>
+                    <option value="">14171-ДБ (ТУР)</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="">3. Как вы оцениваете качество преподавания в университете?</label>
+            </div>
+
+            <div>
+                <input type="radio" name="quality" id="high">
+                <label for="high">Высокое</label>
+            </div>
+
+            <div>
+                <input type="radio" name="quality" id="good">
+                <label for="good">Хорошее</label>
+            </div>
+
+            <div>
+                <input type="radio" name="quality" id="satisfactory">
+                <label for="satisfactory">Удовлетворительно</label>
+            </div>
+
+            <div>
+                <input type="radio" name="quality" id="low">
+                <label for="low">Низкое</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="">4. Насколько удобны аудитории и учебная инфраструктура?</label>
+            </div>
+
+            <div>
+                <input type="radio" name="audiences" id="convenient">
+                <label for="convenient">Очень удобные</label>
+            </div>
+
+            <div>
+                <input type="radio" name="audiences" id="fit">
+                <label for="fit">Вполне подходят</label>
+            </div>
+
+            <div>
+                <input type="radio" name="audiences" id="improve">
+                <label for="improve">Требуют улучшения</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="">5. Насколько понятно преподаватели объясняют материал?</label>
+            </div>
+
+            <div>
+                <input type="radio" name="explanation" id="ok">
+                <label for="ok">Всегда понятно</label>
+            </div>
+
+            <div>
+                <input type="radio" name="explanation" id="often">
+                <label for="often">Чаще всего понятно</label>
+            </div>
+
+            <div>
+                <input type="radio" name="explanation" id="sometimes">
+                <label for="sometimes">Иногда непонятно</label>
+            </div>
+
+            <div>
+                <input type="radio" name="explanation" id="difficult">
+                <label for="difficult">Часто сложно понять</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="">6. Есть ли у вас возможность развиваться профессионально (стажировки, практика, проекты)?</label>
+            </div>
+
+            <div>
+                <input type="radio" name="possibility" id="perhaps">
+                <label for="perhaps">Да, достаточно возможностей</label>
+            </div>
+
+            <div>
+                <input type="radio" name="possibility" id="more">
+                <label for="more">Есть, но хотелось бы больше</label>
+            </div>
+
+            <div>
+                <input type="radio" name="possibility" id="no">
+                <label for="no">Почти нет</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="">7. Как вы оцениваете уровень взаимодействия с одногруппниками и студенческим сообществом?</label>
+            </div>
+
+            <div>
+                <input type="radio" name="interaction" id="high_7">
+                <label for="high_7">Высокий</label>
+            </div>
+
+            <div>
+                <input type="radio" name="interaction" id="midle">
+                <label for="midle">Средний</label>
+            </div>
+
+            <div>
+                <input type="radio" name="interaction" id="low_7">
+                <label for="low_7">Низкий</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="">8. Как преподаватели относятся к студентам?</label>
+            </div>
+
+            <div>
+                <input type="radio" name="relationships" id="respect">
+                <label for="respect">С уважением и поддержкой</label>
+            </div>
+
+            <div>
+                <input type="radio" name="relationships" id="positive">
+                <label for="positive">В целом положительно</label>
+            </div>
+
+            <div>
+                <input type="radio" name="relationships" id="neutral">
+                <label for="neutral">Нейтрально</label>
+            </div>
+
+            <div>
+                <input type="radio" name="relationships" id="Unfriendly">
+                <label for="Unfriendly">Холодно/недружелюбно</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="like">9. Что вам нравится больше всего в университете?</label>
+            </div>
+
+            <div>
+                <textarea name="=university" id="like" rows="10" cols="80" placeholder="Напишите здесь..." value=“значение_по_умолчанию”></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="improve" >10. Что бы вы хотели улучшить в университете?</label>
+            </div>
+
+            <div>
+                <textarea name="=improve" id="improve" rows="10" cols="80" placeholder="Напишите здесь..." value=“значение_по_умолчанию”></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="">Оцените факультет ФБКИ по 100бальной шкале</label>
+            </div>
+
+            <div>
+                <label for="">0</label> 
+                <input type="range" min="0" max="100" id="range">
+                <label for="">100</label>
+                <output name="forrange">0</output>
+            </div>
+        </fieldset>
+
+        <div class="botton">
+            <input type="submit">
+        </div>
+    </form>
+
+</body>
+</html>
