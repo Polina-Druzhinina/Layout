@@ -1,0 +1,37 @@
+body{
+    background-color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22pt;
+    color: blue;
+}
+header,footer{
+    background-color:  antiquewhite;
+    display: table;
+    width: 100%;
+    height: 100px;
+    border: 3px solid darkblue;
+    margin: 30px 0px;
+    box-sizing: border-box;
+    border-spacing: 15px;
+}
+main{
+    display: table;      
+    width: 100%;       
+    border-spacing: 15px;
+    height: 500px;     
+    background-color: #f0f8ff;
+}
+.cell{
+    display: table-cell;
+    background-color: mediumturquoise;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.left{
+    margin: 33%;
+}
+.right{
+    margin: 33%;
+}
