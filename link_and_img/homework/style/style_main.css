@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+}
+
+table{
+    border: 3px solid #7BA1B7;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+caption{
+    font-size: 18pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+td{
+    padding: 10px;
+    border: 1px solid #7BA1B7;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}

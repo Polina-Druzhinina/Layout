@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to bottom, #d1fae5 0%, #ffffff 50%, #d1fae5 100%);
+    font-size: 14pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+figcaption{
+    text-align: center;
+    font-size: 12pt;
+    font-style: italic;
+}
+
+.container{
+    display: flex;          /* включает flexbox */
+    align-items: center;    /* выравнивает по вертикали */
+    gap: 20px;              /* отступ между картинкой и текстом */
+    max-width: 1200px;
+    margin: 0 auto;   
+}
+
+img{
+    width: 350px;           /* фиксированная ширина картинки */
+    border-radius: 10px;
+}
+
+.text{
+    text-align: justify;
+    padding: 10px;
+}
+
+.icona{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    display: block;
+}
+
+.centre{
+    text-align: center;
+}
+
+.bord{
+    color: black;
+    background-color: #e6e6fa;
+    border: 3px solid #add6ff;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
