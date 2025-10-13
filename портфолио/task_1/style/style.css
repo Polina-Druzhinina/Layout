@@ -1,0 +1,63 @@
+body{
+    background-color: #e6f7ff;
+    font-family: "Montserrat", sans-serif;
+
+}
+h1{
+    text-align: center;
+    color: #00FA9A;
+    font-weight: 700;
+}
+
+p{
+    font-size: 19px;
+    color: #0077b6 ;
+    line-height: 1.5;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.contener{
+    border: 2px solid #5FA8D3;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #CAE9F5;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    margin-bottom: 30px; /*отступ между блоками*/
+}
+
+.country ol li::marker{
+    color: #b71c1c;
+    line-height: 2.5;
+}
+
+.country ol li:hover {
+  color: #2ecc71;
+  transform: scale(1.05);
+  transform-origin: left;
+}
+
+h3{
+    color: #ff6f00;
+}
+
+a{
+    color: palevioletred;
+}
+a:hover{
+    color: purple;
+}
+
+.alagin{
+    text-align: center;
+}
+
+li{
+    color: #4e342e;
+}
