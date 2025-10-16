@@ -17,15 +17,6 @@ ol>li{
     transition-duration: 0.5s;
 }
 
-li:last-child{
-    color: yellowgreen;
-}
-
-li:nth-child(2n){
-    color: blueviolet;
-    font-size: 18pt;
-}
-
 li:hover{
     background-color: antiquewhite;
     transition-duration: 0.5s;
