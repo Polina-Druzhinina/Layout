@@ -1,0 +1,29 @@
+body{
+    background-color: azure;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ol{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+ol>li{
+    padding: 10px;
+    border: 1px solid brown;
+}
+
+.submenu{
+    list-style: none;
+    display: none;
+}
+
+li.list1:hover ul.submenu,
+li.list2:hover ul.submenu,
+li.list3:hover ul.submenu,
+li.list4:hover ul.submenu{
+    display: block;
+}
