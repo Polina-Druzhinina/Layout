@@ -1,0 +1,36 @@
+body{
+    background-color: azure;
+    font-size: 18pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: blue;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto; /*указываем кол-во и ширину столбцов*/
+    /*grid-template-rows: auto auto auto auto; кол-во строк, лучше не использовать*/
+    border: 2px solid red;
+    gap: 10px 30px; /*расстояние между контейнерами между строками между колонками*/
+    padding: 10px; 
+}
+
+.flex{
+    border: 3px solid darkblue;
+    height: 200px;
+}
+
+.scale{
+    border: 3px solid palevioletred;
+    grid-column-start: 3; /*элемент начинается с 2 линии столбца*/
+    height: auto;
+    grid-row-start: 1; /*поменялась местами*/
+    grid-row-end: 4;
+}
+
+.test{ /*наложение*/
+    border: 2px solid violet;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+}
