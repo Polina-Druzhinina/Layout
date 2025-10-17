@@ -1,0 +1,58 @@
+body{
+    background-color: azure;
+    font-size: 18pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    margin: 0;
+}
+
+.index-grid{
+    border: 3px solid rgb(0, 0, 0);
+    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+header, footer{
+    border: 2px solid palegreen;
+    grid-column-start: 1;
+    grid-column-end: 4;   
+    position: relative;
+    text-align: center;
+    height: 100px; 
+
+}
+
+.grid-container{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.flex{
+    border: 3px solid darkblue;
+    height: 280px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+    text-align: center;
+}
+
+.scale{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
