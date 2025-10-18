@@ -21,7 +21,7 @@ header {
     text-align: center;
     min-height: 100px;
     display: grid;
-    place-items: center; /* добавлено для центрирования */
+    place-items: center; 
 }
 
 .catalog-grid {
@@ -37,8 +37,8 @@ header {
     height: 200px;
     text-align: center;
     min-height: 100px;
-    display: grid;           /* добавлено */
-    place-items: center;     /* центрирует текст */
+    display: grid;       
+    place-items: center; 
 }
 
 .filter {
@@ -47,8 +47,8 @@ header {
     height: auto;
     text-align: center;
     min-height: 100px;
-    display: grid;           /* добавлено */
-    place-items: center;     /* центрирует текст */
+    display: grid;       
+    place-items: center;   
 }
 
 .sort {
@@ -57,12 +57,12 @@ header {
     height: 100px;
     text-align: center;
     min-height: 100px;
-    display: grid;           /* добавлено */
-    place-items: center;     /* центрирует текст */
+    display: grid;      
+    place-items: center;   
 }
 
 p {
-    margin: 0; /* оставляем, но убираем position */
+    margin: 0;
 }
 
 footer {
@@ -72,6 +72,6 @@ footer {
     grid-column-end: 4;
     text-align: center;
     min-height: 100px;
-    display: grid;           /* добавлено */
-    place-items: center;     /* центрирует текст */
+    display: grid;          
+    place-items: center;   
 }
