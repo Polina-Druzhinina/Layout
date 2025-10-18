@@ -1,0 +1,32 @@
+body{
+    font-size: 20pt;
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+
+ol{
+    display: flex;
+    list-style: none; /*убирает нумерацию*/
+    justify-content: space-around;
+}
+
+ol>li{
+    border: 1px solid cadetblue;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+li:hover{
+    background-color: antiquewhite;
+    transition-duration: 0.5s;
+}
+
+.submenu{
+    display: none;
+    list-style: none;
+}
+
+li.top-li:hover ul.submenu{
+    display: block;
+}
