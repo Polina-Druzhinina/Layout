@@ -16,7 +16,8 @@ header{
     gap: 15px;
 }
 
-header>img{
+header>img,
+footer>img{
     height: 100px;
     width: auto;
     object-fit: contain;
@@ -134,4 +135,20 @@ p{
 .price{
     color: #a35d3a;
     font-weight: bold;
+}
+
+footer{
+    margin-top: 20px;
+    border-top: 3px solid #a67b5b;
+    background-color: #ede3d6;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+footer>p{
+    grid-column-start: 2;
+    margin-top: 20px;
+    color: #3b2f2f;
 }
