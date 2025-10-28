@@ -19,44 +19,44 @@ body {
     transition: transform 0.2s ease;
 }
 
-.card.chervi
+.card.hearts
 {
     top: 550px;
     transform: rotate(-20deg);
     left: 15px;
 }
 
-.card.chervi:hover{
+.card.hearts:hover{
     transform: rotate(-20deg) translateY(-100px);
 }
 
-.card.bubi{
+.card.diams{
     top: 505px;
     left:-20px;
     transform: rotate(-10deg);
 }
 
-.card.bubi:hover{
+.card.diams:hover{
     transform:  rotate(-10deg) translateY(-100px);
 }
 
-.card.piki{
+.card.spades{
     top:490px;
     left: -50px;
     transform: rotate(1deg);
 }
 
-.card.piki:hover{
+.card.spades:hover{
     transform: rotate(1deg) translateY(-100px);
 }
 
-.card.kresti{
+.card.clubs{
     top: 505px;
     transform: rotate(10deg);
     left: -80px;
 }
 
-.card.kresti:hover{
+.card.clubs:hover{
     transform: rotate(10deg) translateY(-100px);
 }
 
