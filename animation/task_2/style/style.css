@@ -1,0 +1,39 @@
+.answers{
+    padding-left: 20px;
+}
+
+.check{
+    margin-bottom: 10px;
+}
+
+.check input{
+    display: none;
+}
+
+.check label{
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.check label::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+}
+
+.check input:checked + label::before{
+    content: "";
+    position: absolute;
+    top: 2px;
+    height: 7px;
+    width: 12px;
+    border: solid green;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-45deg);
+}
